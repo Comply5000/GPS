@@ -34,10 +34,16 @@ public sealed class GPSController : Controller
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<GPSDataDTO?>>> GetGgsData(CancellationToken cancellationToken)
+    public async Task<ActionResult<List<GPSData>>> GetGgsData(CancellationToken cancellationToken)
     {
         var gpsData = await _context.GpsDatas.AsNoTracking()
-            .Select(x => new GPSDataDTO().Map(x))
+            .Select(x => new GPSData
+            {
+                Id = x.Id,
+                Latitude = x.Latitude,
+                Longitude = x.Longitude,
+                CreatedAt = x.CreatedAt
+            })
             .ToListAsync(cancellationToken);
 
         return Ok(gpsData);

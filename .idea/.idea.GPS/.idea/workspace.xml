@@ -5,11 +5,21 @@
     <projectFile profileName="IIS Express">GPS/GPS.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4c55dcb-53e4-492e-a41c-10d7ffd16a50" name="Changes" comment="" />
+    <list default="true" id="b4c55dcb-53e4-492e-a41c-10d7ffd16a50" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/Controllers/GPSController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/Controllers/GPSController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/Entities/GPSData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/GPS/Entities/GPSData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/GPS/GPSDataDTO.cs" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c13f49990bf34d18b209c4f451026a97a226b0/e9/b5fb8ac1/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/C#/GPS/GPS/Controllers/GPSController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,6 +40,10 @@
   }
 }</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.GPS">
+    <configuration name="Publish GPS to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="Release" platform="Any CPU" runtime="Portable" target_folder="$PROJECT_DIR$/../../ISS Apps/GPS" target_framework="net6.0" uuid_high="7505957733556766656" uuid_low="-7272708805649045115" />
+      <method v="2" />
+    </configuration>
     <configuration name="GPS" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GPS/GPS.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -71,6 +85,9 @@
       <updated>1678701546645</updated>
       <workItem from="1678701554534" duration="2219000" />
       <workItem from="1678704651665" duration="1380000" />
+      <workItem from="1679233637763" duration="2766000" />
+      <workItem from="1681165540521" duration="126000" />
+      <workItem from="1681221600913" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1678701594203</created>
