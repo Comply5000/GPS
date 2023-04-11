@@ -5,12 +5,8 @@
     <projectFile profileName="IIS Express">GPS/GPS.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4c55dcb-53e4-492e-a41c-10d7ffd16a50" name="Changes" comment="">
+    <list default="true" id="b4c55dcb-53e4-492e-a41c-10d7ffd16a50" name="Changes" comment="Fix">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/Controllers/GPSController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/Controllers/GPSController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/Entities/GPSData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/GPS/Entities/GPSData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/GPS/GPSDataDTO.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.GPS">
+  <component name="RunManager" selected="Publish to folder.Publish GPS to folder">
     <configuration name="Publish GPS to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="Release" platform="Any CPU" runtime="Portable" target_folder="$PROJECT_DIR$/../../ISS Apps/GPS" target_framework="net6.0" uuid_high="7505957733556766656" uuid_low="-7272708805649045115" />
       <method v="2" />
@@ -87,7 +83,7 @@
       <workItem from="1678704651665" duration="1380000" />
       <workItem from="1679233637763" duration="2766000" />
       <workItem from="1681165540521" duration="126000" />
-      <workItem from="1681221600913" duration="323000" />
+      <workItem from="1681221600913" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1678701594203</created>
@@ -117,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678706174323</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix">
+      <created>1681221952491</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681221952491</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +143,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
     <MESSAGE value="CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
 </project>
