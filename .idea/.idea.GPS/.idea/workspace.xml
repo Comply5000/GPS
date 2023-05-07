@@ -5,8 +5,10 @@
     <projectFile profileName="IIS Express">GPS/GPS.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4c55dcb-53e4-492e-a41c-10d7ffd16a50" name="Changes" comment="Fix">
+    <list default="true" id="b4c55dcb-53e4-492e-a41c-10d7ffd16a50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/Controllers/GPSController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/Controllers/GPSController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +17,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c13f49990bf34d18b209c4f451026a97a226b0/e9/b5fb8ac1/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/C#/GPS/GPS/Controllers/GPSController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +84,12 @@
       <workItem from="1678704651665" duration="1380000" />
       <workItem from="1679233637763" duration="2766000" />
       <workItem from="1681165540521" duration="126000" />
-      <workItem from="1681221600913" duration="1872000" />
+      <workItem from="1681221600913" duration="4854000" />
+      <workItem from="1682976112419" duration="624000" />
+      <workItem from="1683062453478" duration="1189000" />
+      <workItem from="1683063659476" duration="429000" />
+      <workItem from="1683064148243" duration="4000" />
+      <workItem from="1683065148576" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1678701594203</created>
@@ -120,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681221952491</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix">
+      <created>1681226943740</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681226943740</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -34,8 +34,11 @@ public sealed class GPSController : Controller
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<GPSData>>> GetGgsData(CancellationToken cancellationToken)
+    public async Task<ActionResult<List<GPSData>>> GetGgsData([FromQuery]string? password, CancellationToken cancellationToken)
     {
+        if (password != "kfm08!Syyoj6nlN^Rci8WH21!YNPuKqK3C4xfu^1KiaMS49zUm!GGBj")
+            return NotFound();
+        
         var gpsData = await _context.GpsDatas.AsNoTracking()
             .Select(x => new GPSData
             {
